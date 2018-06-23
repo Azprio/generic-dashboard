@@ -1,0 +1,7 @@
+.test {
+  position: relative;
+  float: right;
+  top: 13px;
+  transform: translate(-72px,-12px);
+  right: 1px;
+}
