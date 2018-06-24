@@ -1,4 +1,5 @@
 <?php
+$page_name = 'frs_temp';
 include('./header_menu_left.php');
 ?>
 

@@ -1,4 +1,5 @@
 <?php
+$page_name = 'tank_details';
 include('./header_menu_left.php');
 ?>
         <div class="main-panel">

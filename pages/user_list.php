@@ -1,4 +1,5 @@
 <?php
+$page_name = 'user_list';
 include('./header_menu_left.php');
 ?>
         <div class="main-panel">

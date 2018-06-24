@@ -1,4 +1,5 @@
 <?php
+$page_name = 'user';
 include('./header_menu_left.php');
 
 if(isset($_POST['btn'])){

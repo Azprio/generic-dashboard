@@ -1,4 +1,5 @@
 <?php
+$page_name = 'invoice';
 include('./header_menu_left.php');
 //including the database connection file
 include_once("config.php");

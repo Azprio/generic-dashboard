@@ -1,4 +1,5 @@
 <?php
+$page_name = 'index';
 include('./header_menu_left.php');
 ?>
 

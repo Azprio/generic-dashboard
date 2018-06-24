@@ -64,7 +64,7 @@ echo
 ## Default: Commit skipped|forgotten
 
 # 2018.May26
-git commit -m  "Dashboard Release version 1.5.1.June-23-2018"
+git commit -m  "Dashboard Menu Active Solved Release version 1.5.2.June-24-2018"
 
 
 ############

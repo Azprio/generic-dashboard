@@ -14,7 +14,7 @@ $query_result1=$obj_tank->select_all_user_info();
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Dashboard by Creative Tim
+    Water Tank
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -44,26 +44,26 @@ $query_result1=$obj_tank->select_all_user_info();
         Tip 2: you can also add an image using data-image tag
     -->
       <div class="logo">
-        <a href="#" class="simple-text logo-normal">
+          <a href="./index.php" class="simple-text logo-normal">
           Water Tank
         </a>
         
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active  ">
+          <li class="nav-item <?php if($page_name == 'index'){ echo 'active';} ?>">
             <a class="nav-link" href="./index.php">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item <?php if($page_name == 'user'){ echo 'active';} ?>">
             <a class="nav-link" href="./user.php">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item <?php if($page_name == 'user_list'){ echo 'active';} ?>">
             <a class="nav-link" href="./user_list.php">
               <i class="material-icons">content_paste</i>
               <p>Registered User</p>
@@ -87,19 +87,19 @@ $query_result1=$obj_tank->select_all_user_info();
               <p>Maps</p>
             </a>
           </li> -->
-          <li class="nav-item">
+          <li class="nav-item <?php if($page_name == 'tank_details'){ echo 'active';} ?>">
             <a class="nav-link" href="./tank_details.php">
               <i class="material-icons">call_to_action</i>
               <p>Tank Details</p>
             </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item <?php if($page_name == 'invoice'){ echo 'active';} ?>">
             <a class="nav-link" href="./invoice.php">
               <i class="material-icons">content_paste</i>
               <p>Invoice</p>
               </a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item <?php if($page_name == 'frs_temp'){ echo 'active';} ?>">
             <a class="nav-link" href="./frs_temp.php">
               <i class="material-icons">content_paste</i>
               <p>Cam View</p>
